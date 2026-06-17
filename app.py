@@ -307,7 +307,8 @@ with tab_data:
     st.plotly_chart(fig2, use_container_width=True)
 
     with st.expander("Описательная статистика"):
-        st.dataframe(df.describe(), use_container_width=True)
+        desc = df.describe().rename(columns={"vix": spec.exog, "spread": "спред"})
+        st.dataframe(desc, use_container_width=True)
 
 
 # ════════════════════════════════════════════════════════════
