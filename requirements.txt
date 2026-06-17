@@ -6,8 +6,10 @@ requests>=2.31
 streamlit>=1.30
 statsmodels>=0.14
 scikit-learn>=1.4
-tensorflow>=2.15
 matplotlib>=3.8
-seaborn>=0.13
 scipy>=1.12
 plotly>=5.18
+
+# Опционально — только для LSTM-бенчмарка в main.py (тяжёлая зависимость,
+# не нужна ни веб-приложению, ни облачному развёртыванию):
+#   pip install tensorflow>=2.15
