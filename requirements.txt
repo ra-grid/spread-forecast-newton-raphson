@@ -1,0 +1,13 @@
+numpy>=1.26
+pandas>=2.2
+yfinance>=0.2.50
+apimoex>=1.4
+requests>=2.31
+streamlit>=1.30
+statsmodels>=0.14
+scikit-learn>=1.4
+tensorflow>=2.15
+matplotlib>=3.8
+seaborn>=0.13
+scipy>=1.12
+plotly>=5.18

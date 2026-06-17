@@ -1,0 +1,27 @@
+# Виртуальные окружения
+venv312/
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+
+# Служебные / старые артефакты данных
+data/*.broken_backup
+data/spread_data.csv
+
+# IDE и ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
